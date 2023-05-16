@@ -4,7 +4,6 @@ languageCode = 'en-us'
 theme = 'lowkey'
 title = 'Overheard Absurdities'
 enableRobotsTXT = true
-publishDir= "docs"
 
 # List Config
 summaryLength= 15
