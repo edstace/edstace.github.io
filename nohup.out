@@ -1,0 +1,106 @@
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            | 23  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     | 18  
+  Processed images |  3  
+  Aliases          |  7  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 823 ms
+Watching for changes in /var/www/overheardabsurdities/{archetypes,content,data,layouts,static,themes}
+Watching for config changes in /var/www/overheardabsurdities/config/_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at https://overheardabsurdities.com/ (bind address 0.0.0.0)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2023-05-15 21:10:28.009 +0000
+Total in 7 ms
+
+Change detected, rebuilding site.
+2023-05-15 21:11:34.008 +0000
+ERROR 2023/05/15 21:11:34 render of "section" failed: execute of template failed: template: _default/list.html:7:12: executing "_default/list.html" at <partial "header.html" .>: error calling partial: "/var/www/overheardabsurdities/themes/lowkey/layouts/partials/header.html:2:20": execute of template failed: template: partials/header.html:2:7: executing "partials/header.html" at <partial "header/avatar" .>: error calling partial: "/var/www/overheardabsurdities/themes/lowkey/layouts/partials/header/avatar.html:2:20": execute of template failed: template: partials/header/avatar.html:2:20: executing "partials/header/avatar.html" at <$avatar.Fill>: nil pointer evaluating resource.Resource.Fill
+ERROR 2023/05/15 21:11:34 render of "taxonomyTerm" failed: execute of template failed: template: taxonomies/home.html:7:12: executing "taxonomies/home.html" at <partial "header.html" .>: error calling partial: "/var/www/overheardabsurdities/themes/lowkey/layouts/partials/header.html:2:20": execute of template failed: template: partials/header.html:2:7: executing "partials/header.html" at <partial "header/avatar" .>: error calling partial: "/var/www/overheardabsurdities/themes/lowkey/layouts/partials/header/avatar.html:2:20": execute of template failed: template: partials/header/avatar.html:2:20: executing "partials/header/avatar.html" at <$avatar.Fill>: nil pointer evaluating resource.Resource.Fill
+ERROR 2023/05/15 21:11:34 render of "taxonomyTerm" failed: execute of template failed: template: taxonomies/home.html:7:12: executing "taxonomies/home.html" at <partial "header.html" .>: error calling partial: "/var/www/overheardabsurdities/themes/lowkey/layouts/partials/header.html:2:20": execute of template failed: template: partials/header.html:2:7: executing "partials/header.html" at <partial "header/avatar" .>: error calling partial: "/var/www/overheardabsurdities/themes/lowkey/layouts/partials/header/avatar.html:2:20": execute of template failed: template: partials/header/avatar.html:2:20: executing "partials/header/avatar.html" at <$avatar.Fill>: nil pointer evaluating resource.Resource.Fill
+Total in 1 ms
+ERROR 2023/05/15 21:11:34 Rebuild failed:
+
+ERROR 2023/05/15 21:11:34 Failed to render pages: render of "home" failed: execute of template failed: template: index.html:7:12: executing "index.html" at <partial "header.html" .>: error calling partial: "/var/www/overheardabsurdities/themes/lowkey/layouts/partials/header.html:2:20": execute of template failed: template: partials/header.html:2:7: executing "partials/header.html" at <partial "header/avatar" .>: error calling partial: "/var/www/overheardabsurdities/themes/lowkey/layouts/partials/header/avatar.html:2:20": execute of template failed: template: partials/header/avatar.html:2:20: executing "partials/header/avatar.html" at <$avatar.Fill>: nil pointer evaluating resource.Resource.Fill
+
+Change detected, rebuilding site.
+2023-05-15 21:11:49.008 +0000
+Total in 150 ms
+
+Change of config file detected, rebuilding site.
+2023-05-16 12:27:45.008 +0000
+Rebuilt in 854 ms
+
+Change of config file detected, rebuilding site.
+2023-05-16 12:27:56.009 +0000
+Rebuilt in 847 ms
+
+Change of config file detected, rebuilding site.
+2023-05-16 12:28:05.008 +0000
+Rebuilt in 868 ms
+
+Change of config file detected, rebuilding site.
+2023-05-16 12:28:09.008 +0000
+Rebuilt in 846 ms
+
+Change of config file detected, rebuilding site.
+2023-05-16 12:28:15.008 +0000
+Rebuilt in 847 ms
+
+Change of config file detected, rebuilding site.
+2023-05-16 12:28:51.008 +0000
+Rebuilt in 842 ms
+
+Change detected, rebuilding site.
+2023-05-16 12:34:59.009 +0000
+Source changed "/var/www/overheardabsurdities/content/_index.md": WRITE
+Total in 4 ms
+
+Change detected, rebuilding site.
+2023-05-16 12:42:14.008 +0000
+Source changed "/var/www/overheardabsurdities/content/posts/_index.md": WRITE
+Total in 8 ms
+
+Change detected, rebuilding site.
+2023-05-16 12:55:15.008 +0000
+Source changed "/var/www/overheardabsurdities/content/posts/my-first-post.md": WRITE
+Total in 0 ms
+ERROR 2023/05/16 12:55:15 Rebuild failed:
+
+ERROR 2023/05/16 12:55:15 "/var/www/overheardabsurdities/content/posts/my-first-post.md:12:1": failed to unmarshal YAML: yaml: line 11: could not find expected ':'
+
+Change detected, rebuilding site.
+2023-05-16 12:56:50.008 +0000
+Source changed "/var/www/overheardabsurdities/content/posts/my-first-post.md": WRITE
+Total in 7 ms
+
+Change detected, rebuilding site.
+2023-05-16 12:59:45.009 +0000
+Source changed "/var/www/overheardabsurdities/content/posts/my-first-post.md": WRITE
+Total in 6 ms
+
+Change detected, rebuilding site.
+2023-05-16 13:03:46.008 +0000
+Source changed "/var/www/overheardabsurdities/content/posts/my-first-post.md": WRITE
+Total in 8 ms
+adding created directory to watchlist /var/www/overheardabsurdities/content/posts/shockingturnofevents
+
+Change detected, rebuilding site.
+2023-05-16 13:07:06.009 +0000
+Total in 9 ms
+
+Change detected, rebuilding site.
+2023-05-16 13:08:02.008 +0000
+Source changed "/var/www/overheardabsurdities/content/posts/my-first-post.md": RENAME
+Source changed "/var/www/overheardabsurdities/content/posts/shockingturnofevents/my-first-post.md": CREATE
+Total in 6 ms
